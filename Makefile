@@ -15,7 +15,10 @@ checkbashisms:
 shellcheck:
 	stank lib | xargs shellcheck
 
+funk:
+	funk .
+
 editorconfig:
 	flcl . | xargs -n 100 editorconfig-cli check
 
-lint: shfmt bashate shlint checkbashisms shellcheck editorconfig
+lint: shfmt bashate shlint checkbashisms shellcheck funk editorconfig
