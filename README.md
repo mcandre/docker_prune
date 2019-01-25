@@ -40,13 +40,12 @@ $ source $HOME/.bash_profile
 
 # REQUIREMENTS
 
+* [bash](https://www.gnu.org/software/bash/) 4+
+
 ## Optional
 
-* [shfmt](https://github.com/mvdan/sh) (e.g. `go get github.com/mvdan/sh/cmd/shfmt)
-* [bashate](https://pypi.python.org/pypi/bashate/0.5.1)
-* [shlint](https://rubygems.org/gems/shlint)
-* [checkbashisms](https://sourceforge.net/projects/checkbaskisms/)
-* [ShellCheck](https://hackage.haskell.org/package/ShellCheck)
+* [make](https://www.gnu.org/software/make/)
+* [GNU findutils](https://www.gnu.org/software/findutils/)
 * [stank](https://github.com/mcandre/stank) (e.g. `go get github.com/mcandre/stank/...`)
-* [editorconfig-cli](https://github.com/amyboyd/editorconfig-cli) (e.g. `go get github.com/amyboyd/editorconfig-cli`)
-* [flcl](https://github.com/mcandre/flcl) (e.g. `go get github.com/mcandre/flcl/...`)
+* [Python](https://www.python.org) 3+ (for yamllint)
+* [Node.js](https://nodejs.org/en/) (for eclint)
