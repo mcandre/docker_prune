@@ -13,7 +13,7 @@ checkbashisms:
 	@stank lib | xargs checkbashisms -n -p
 
 shellcheck:
-	@stank lib | xargs shellcheck
+	@stank -exInterp zsh lib | grep -v node_modules | xargs shellcheck
 
 funk:
 	@funk .
